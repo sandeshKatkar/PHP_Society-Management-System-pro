@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.br{
+    border:2px solid black;
+}
+.g{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(113, 99, 186, 255);
+    color: white;
+    position: fixed;
+}
+
+.navbar{
+    background-color:rgba(113, 99, 186, 255)!important ;
+    
+}
+.nav-link{
+    color: white!important;;
+}
+.nav-link:hover{
+    background-color: rgb(178, 115, 221)!important;
+    border-radius: 30px;
+    transform: all linear;
+}
+.btn{
+        border: 1.5px solid white;
+        color: white;
+}
+.btn:hover{
+    background-color: rgba(243, 63, 63, 0.897);
+}
+
+
+.notice-box{
+    height: 40vh;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to right bottom,
+    rgba(140, 67, 199, 0.767),
+    rgba(153, 43, 204, 0.699));
+    backdrop-filter: blure(2rem);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 350px;
+    margin-left: 60px;
+}
+.notice-title{
+    border-bottom: 2px solid #050505;
+
+}
+.notice-sub{
+    border-bottom: 2px solid rgb(8, 8, 8);
+}
+.notice-box h1{
+    color: #fff;
+}
+.notice-sub{
+    /* border: 2px solid black; */
+    padding: 15px;
+    text-align: left;
+    
+}
+.notice-sub h1{
+    font-size: 1.5rem;
+    
+}
+.notice-sub h1::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    border-radius: 1px;
+}
+.main-b{
+    margin-top: 9vh;
+}
+
+@media only screen and (max-width:455px){
+    .notice-box{
+        height: 80vh;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+        background: linear-gradient(to right bottom,
+        rgba(158, 86, 218, 0.4),
+        rgba(172, 43, 231, 0.2));
+        backdrop-filter: blure(2rem);
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        width: 350px;
+        margin-left: 15px;
+    }
+    .main-b{
+        margin-top: 8vh;
+    }
+   
+}
+
+.sub-details{
+    font-size: 2rem;
+}
+
+.section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head:after{
+   background: red;
+   content: "";
+   display: block;
+   width: 100px;
+   height: 3px;
+   margin: 20px auto; 
+}
+.highlight-box{
+    text-align: center;
+}
+.highlight-box i{
+    color: black;
+    font-size: 70px;
+}
+.about-us{
+    background-color: rgba(113, 99, 186, 255);
+    margin-top: 10px;
+    color: white;
+}
+
+.about-us h3{
+    
+    margin: 20px auto;
+}
+.contact-us{
+    margin-top: 20px;
+    background-color: rgb(154, 90, 214);
+}
+.contact-details{
+    margin:10px;
+    /* padding: 10px; */
+    /* border-bottom: 2px solid rgb(247, 243, 243); */
+    
+}
+
+.committee{
+    padding-left: 30px;
+    margin-top: 20px;
+    background-color: rgb(154, 90, 214);
+}
+
+.commitee-details p{
+    margin-top: 10px;
+    
+}
+.commitee-details h4{
+    font-size: 1rem;
+}
+
+
+/* complaints */
+
+.frm{
+    height:80vh;
+    width: 50%;
+    margin-top: 60px;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to right bottom,
+    rgba(164, 96, 219, 0.596),
+    rgba(145, 23, 202, 0.507));
+    backdrop-filter: blure(4rem);
+    border-radius: 30px;
+    border: 2px solid rgb(255, 253, 253);
+    
+}
+.frm .frm-input{
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+.frm h2{
+    color: white;
+    margin-top: 10px;
+
+}
+::placeholder{
+    color: white;
+}
+.frm-btn{
+    width:120px;
+    height:45px;
+    background:none ;
+    border: 2px solid white;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.frm1{
+    width: 50px;
+    background-color: #000;
+}
+@media only screen and (max-width:455px){
+
+    .frm{
+        height:80vh;
+        width: 90%;
+        margin-top: 60px;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+        background: linear-gradient(to right bottom,
+        rgba(164, 96, 219, 0.596),
+        rgba(145, 23, 202, 0.507));
+        backdrop-filter: blure(4rem);
+        border-radius: 30px;
+        border: 2px solid rgb(255, 253, 253);
+        
+    }
+    .frm-btn{
+        margin-left: 10px;
+        margin-top: 50px;
+
+    }
+
+}
